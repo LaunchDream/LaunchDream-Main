@@ -29,7 +29,7 @@ input:-webkit-autofill:focus {
 
 @layer utilities {
   .section-padding { @apply px-5 md:px-10 lg:px-16 xl:px-28; }
-  .section-label { @apply font-mono text-sm font-500 tracking-[0.2em] uppercase text-blue-600; }
+  .section-label { @apply font-mono text-sm font-medium tracking-[0.2em] uppercase text-blue-600; }
   .divider { height: 1px; background: linear-gradient(90deg, transparent, #e2e8f0, transparent); }
   .blue-divider { height: 1px; background: linear-gradient(90deg, transparent, rgba(37,99,235,0.3), transparent); }
 }
