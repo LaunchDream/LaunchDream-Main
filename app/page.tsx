@@ -7,7 +7,6 @@ import Founder from "@/components/Founder";
 import OurModel from "@/components/OurModel";
 import WhoWereLookingFor from "@/components/WhoWereLookingFor";
 import Portfolio from "@/components/Portfolio";
-import Resources from "@/components/Resources";
 import ApplicationForm from "@/components/ApplicationForm";
 import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
@@ -25,7 +24,6 @@ export default function Home() {
         <OurModel />
         <WhoWereLookingFor />
         <Portfolio />
-        <Resources />
         <ApplicationForm />
         <FinalCTA />
       </main>
