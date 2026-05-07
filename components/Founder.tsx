@@ -54,8 +54,8 @@ export default function Founder() {
             <div className="absolute -bottom-3 -right-3 w-24 h-24 border-b-2 border-r-2 border-blue-200"/>
             <div className="bg-white border border-slate-200 shadow-card p-10 text-center">
               <div className="w-28 h-28 mx-auto mb-6 relative">
-                <div className="w-28 h-28 rounded-full bg-blue-50 border-2 border-blue-200 flex items-center justify-center">
-                  <span className="font-display text-4xl font-500 text-blue-600 italic">NP</span>
+                <div className="w-28 h-28 rounded-full border-2 border-blue-200 overflow-hidden">
+                  <img src="/nitin.jpg" alt="Nitin Pradhan" className="w-full h-full object-cover object-top" />
                 </div>
                 <div className="absolute -bottom-1 -right-1 w-7 h-7 bg-blue-600 flex items-center justify-center rounded-full">
                   <span className="text-white text-[9px] font-700">★</span>
